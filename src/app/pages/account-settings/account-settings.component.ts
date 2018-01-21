@@ -7,6 +7,7 @@ import { SettingsService } from '../../services/service.index';
   templateUrl: './account-settings.component.html',
   styles: []
 })
+
 export class AccountSettingsComponent implements OnInit {
 
   constructor( public _ajuste: SettingsService) { }
